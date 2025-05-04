@@ -5,11 +5,11 @@ SGST = 14 / 100
 CGST = 14 / 100
 
 
-print("------- We are selling DSLR Cameras --------")
-print("-------Each costs 30,000 INR ---------------")
+print("------- Welcome to DSLR CAMERA STORE--------")
+print("------Each DSLR Camera costs : 30,000 INR ---------")
 
 #no.of items required for a costumer
-required_items = int(input("No. of required items: "))
+required_items = int(input("Enter the number of cameras you want to buy: "))
  
 # Apply discount based on quantity
 if 2 <= required_items <= 5:
@@ -43,4 +43,4 @@ print("     Discount Applied(" ,discount,") : ₹",DSLR_discount_amount)
 print("-------------------------------------------------")
 print("     Total Payable Amount     : ₹",total_cost)
 print("-------------------------------------------------")
-print("~~~~~~~~~~    THANK_YOU AND VISIT_AGAIN    ~~~~~~~~~~")	
+print("~~~~~~~~~~    THANK_YOU for shopping with us ! VISIT_AGAIN    ~~~~~~~~~~")	
